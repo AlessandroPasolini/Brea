@@ -1,10 +1,10 @@
 # Brea
 
+<img width="256" height="256" alt="LogoBreaWhiteIC" src="https://github.com/user-attachments/assets/d7bdc3a3-ba26-4cc9-9bd5-349568ba9b38" />
+
 **It is a parametric equalizer for macOS:** Brea shapes the sound of your whole Mac, or only the apps
 you choose, with up to 32 bands and a real-time spectrum analyzer. It runs quietly from the
 menu bar and never changes your output device or sample rate.
-
-<img width="128" height="128" alt="LogoBreaWhiteIC" src="https://github.com/user-attachments/assets/d7bdc3a3-ba26-4cc9-9bd5-349568ba9b38" />
 
 > [!NOTE]
 > Brea is in **alpha** (`0.1.0-alpha.1`). Expect rough edges. Please

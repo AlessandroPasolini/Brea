@@ -1,12 +1,16 @@
 # Brea
 
-**A parametric equalizer for macOS.** Brea shapes the sound of your whole Mac, or only the apps
+**It is a parametric equalizer for macOS:** Brea shapes the sound of your whole Mac, or only the apps
 you choose, with up to 32 bands and a real-time spectrum analyzer. It runs quietly from the
 menu bar and never changes your output device or sample rate.
 
+<img width="1024" height="1024" alt="LogoBreaWhiteIC" src="https://github.com/user-attachments/assets/d7bdc3a3-ba26-4cc9-9bd5-349568ba9b38" />
+
 > [!NOTE]
-> Brea is in **alpha** (`0.1.0-alpha.1`). Expect rough edges, and please
+> Brea is in **alpha** (`0.1.0-alpha.1`). Expect rough edges. Please
 > [report what you find](../../issues).
+
+<img width="1292" height="680" alt="Brea" src="https://github.com/user-attachments/assets/047907e5-5b13-499d-bde4-e825a39aa2f8" />
 
 ## Features
 
@@ -22,9 +26,8 @@ menu bar and never changes your output device or sample rate.
 - **Light and dark** appearance.
 
 ## Requirements
-
-| **Run** | macOS 27 or later, Apple silicon or Intel |
-| **Build** | Xcode 27 or later |
+To run: macOS 27 or later, Apple silicon or Intel
+To build: Xcode 27 or later
 
 ## Install
 
@@ -118,4 +121,4 @@ Brea is free software, released under the [GNU General Public License v3.0](LICE
 You may use, study, share and modify it; if you distribute a modified version, it must also be
 released under the GPL-3.0.
 
-Copyright © 2026 Alessandro Pasolini
+Copyright © 2026 Alessandro Pasolini <3

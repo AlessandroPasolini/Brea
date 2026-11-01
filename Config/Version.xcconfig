@@ -1,0 +1,16 @@
+// Brea's version: the single source for the app target (Debug and Release).
+//
+// Shown as "0.1.0-alpha.1 (1)": MARKETING_VERSION-BREA_VERSION_LABEL (CURRENT_PROJECT_VERSION).
+// - MARKETING_VERSION      CFBundleShortVersionString. Numbers only (macOS requires it).
+// - BREA_VERSION_LABEL     Pre-release label, stored as BreaVersionLabel in Info.plist.
+//                          Leave empty for a final release.
+// - CURRENT_PROJECT_VERSION CFBundleVersion. An integer that grows by 1 with every release
+//                          build; `scripts/release.sh --bump-build` raises it.
+//
+// See RELEASING.md.
+
+MARKETING_VERSION = 0.1.0
+BREA_VERSION_LABEL = alpha.1
+CURRENT_PROJECT_VERSION = 1
+
+#include "Signing.xcconfig"

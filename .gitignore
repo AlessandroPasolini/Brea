@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Xcode: per-user state
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# Build products
+build/
+DerivedData/
+*.xcarchive
+*.dmg
+*.dmg.sha256
+
+# Swift Package Manager
+.build/
+.swiftpm/xcode/xcuserdata/
+Packages/BreaKit/.swiftpm/configuration/registries.json
+
+# Local signing (team ID); see Config/Signing.local.xcconfig.example
+Config/Signing.local.xcconfig
+
+# Editors
+.vscode/
+.idea/
+*.swp

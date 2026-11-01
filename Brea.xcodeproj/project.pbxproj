@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		802551633087430D0000C054 /* BreaCore in Frameworks */ = {isa = PBXBuildFile; productRef = 802551623087430D0000C054 /* BreaCore */; };
+		80255165308743110000C054 /* BreaDSP in Frameworks */ = {isa = PBXBuildFile; productRef = 80255164308743110000C054 /* BreaDSP */; };
+		80255167308785D10000C054 /* BreaAudioEngine in Frameworks */ = {isa = PBXBuildFile; productRef = 80255166308785D10000C054 /* BreaAudioEngine */; };
+		80255169308790E70000C054 /* BreaPresets in Frameworks */ = {isa = PBXBuildFile; productRef = 80255168308790E70000C054 /* BreaPresets */; };
+		8025516B30887A280000C054 /* BreaUI in Frameworks */ = {isa = PBXBuildFile; productRef = 8025516A30887A280000C054 /* BreaUI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		802B853C30838571001027ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 802B85223083856D001027ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 802B85293083856E001027ED;
+			remoteInfo = Brea;
+		};
+		802B854630838571001027ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 802B85223083856D001027ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 802B85293083856E001027ED;
+			remoteInfo = Brea;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		802B852A3083856E001027ED /* Brea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		802B853B30838571001027ED /* BreaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		802B854530838571001027ED /* BreaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80BEA0013100000100C0FFEE /* Version.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Version.xcconfig; sourceTree = "<group>"; };
+		80BEA0023100000100C0FFEE /* Signing.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Signing.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		80255148308729200000C054 /* Exceptions for "test" folder in "Brea" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				BreaTests/BreaTests.swift,
+				BreaUITests/BreaUITests.swift,
+			);
+			target = 802B85293083856E001027ED /* Brea */;
+		};
+		80255149308729200000C054 /* Exceptions for "test" folder in "BreaTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				BreaTests/BreaTests.swift,
+			);
+			target = 802B853A30838571001027ED /* BreaTests */;
+		};
+		8025514A308729200000C054 /* Exceptions for "test" folder in "BreaUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				BreaUITests/BreaUITests.swift,
+			);
+			target = 802B854430838571001027ED /* BreaUITests */;
+		};
+		80A011123095A7140015066D /* Exceptions for "Brea" folder in "BreaTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				res/Assets.xcassets,
+			);
+			target = 802B853A30838571001027ED /* BreaTests */;
+		};
+		80A011133095A7140015066D /* Exceptions for "Brea" folder in "BreaUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				res/Assets.xcassets,
+			);
+			target = 802B854430838571001027ED /* BreaUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		802551453087291F0000C054 /* test */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				80255148308729200000C054 /* Exceptions for "test" folder in "Brea" target */,
+				80255149308729200000C054 /* Exceptions for "test" folder in "BreaTests" target */,
+				8025514A308729200000C054 /* Exceptions for "test" folder in "BreaUITests" target */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		802B852C3083856E001027ED /* Brea */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				80A011123095A7140015066D /* Exceptions for "Brea" folder in "BreaTests" target */,
+				80A011133095A7140015066D /* Exceptions for "Brea" folder in "BreaUITests" target */,
+			);
+			path = Brea;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		802B85273083856E001027ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				8025516B30887A280000C054 /* BreaUI in Frameworks */,
+				80255165308743110000C054 /* BreaDSP in Frameworks */,
+				802551633087430D0000C054 /* BreaCore in Frameworks */,
+				80255167308785D10000C054 /* BreaAudioEngine in Frameworks */,
+				80255169308790E70000C054 /* BreaPresets in Frameworks */,
+			);
+		};
+		802B853830838571001027ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		802B854230838571001027ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		802551613087430D0000C054 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		802B85213083856D001027ED = {
+			isa = PBXGroup;
+			children = (
+				802B852C3083856E001027ED /* Brea */,
+				80BEA0033100000100C0FFEE /* Config */,
+				802B852B3083856E001027ED /* Products */,
+				802551453087291F0000C054 /* test */,
+				802551613087430D0000C054 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		802B852B3083856E001027ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				802B852A3083856E001027ED /* Brea.app */,
+				802B853B30838571001027ED /* BreaTests.xctest */,
+				802B854530838571001027ED /* BreaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80BEA0033100000100C0FFEE /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				80BEA0013100000100C0FFEE /* Version.xcconfig */,
+				80BEA0023100000100C0FFEE /* Signing.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		802B85293083856E001027ED /* Brea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 802B854C30838571001027ED /* Build configuration list for PBXNativeTarget "Brea" */;
+			buildPhases = (
+				802B85263083856E001027ED /* Sources */,
+				802B85273083856E001027ED /* Frameworks */,
+				802B85283083856E001027ED /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				802551453087291F0000C054 /* test */,
+				802B852C3083856E001027ED /* Brea */,
+			);
+			name = Brea;
+			packageProductDependencies = (
+				802551623087430D0000C054 /* BreaCore */,
+				80255164308743110000C054 /* BreaDSP */,
+				80255166308785D10000C054 /* BreaAudioEngine */,
+				80255168308790E70000C054 /* BreaPresets */,
+				8025516A30887A280000C054 /* BreaUI */,
+			);
+			productName = Brea;
+			productReference = 802B852A3083856E001027ED /* Brea.app */;
+			productType = "com.apple.product-type.application";
+		};
+		802B853A30838571001027ED /* BreaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 802B855130838571001027ED /* Build configuration list for PBXNativeTarget "BreaTests" */;
+			buildPhases = (
+				802B853730838571001027ED /* Sources */,
+				802B853830838571001027ED /* Frameworks */,
+				802B853930838571001027ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				802B853D30838571001027ED /* PBXTargetDependency */,
+			);
+			name = BreaTests;
+			productName = BreaTests;
+			productReference = 802B853B30838571001027ED /* BreaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		802B854430838571001027ED /* BreaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 802B855430838571001027ED /* Build configuration list for PBXNativeTarget "BreaUITests" */;
+			buildPhases = (
+				802B854130838571001027ED /* Sources */,
+				802B854230838571001027ED /* Frameworks */,
+				802B854330838571001027ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				802B854730838571001027ED /* PBXTargetDependency */,
+			);
+			name = BreaUITests;
+			productName = BreaUITests;
+			productReference = 802B854530838571001027ED /* BreaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		802B85223083856D001027ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2710;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					802B85293083856E001027ED = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					802B853A30838571001027ED = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = 802B85293083856E001027ED;
+					};
+					802B854430838571001027ED = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = 802B85293083856E001027ED;
+					};
+				};
+			};
+			buildConfigurationList = 802B85253083856D001027ED /* Build configuration list for PBXProject "Brea" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+			);
+			mainGroup = 802B85213083856D001027ED;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				802551603087422C0000C054 /* XCLocalSwiftPackageReference "Packages/BreaKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 802B852B3083856E001027ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				802B85293083856E001027ED /* Brea */,
+				802B853A30838571001027ED /* BreaTests */,
+				802B854430838571001027ED /* BreaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		802B85283083856E001027ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		802B853930838571001027ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		802B854330838571001027ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		802B85263083856E001027ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		802B853730838571001027ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		802B854130838571001027ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		802B853D30838571001027ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 802B85293083856E001027ED /* Brea */;
+			targetProxy = 802B853C30838571001027ED /* PBXContainerItemProxy */;
+		};
+		802B854730838571001027ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 802B85293083856E001027ED /* Brea */;
+			targetProxy = 802B854630838571001027ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		802B854D30838571001027ED /* Debug configuration for PBXNativeTarget "Brea" */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80BEA0013100000100C0FFEE /* Version.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				AUTOMATION_APPLE_EVENTS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Brea/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Brea;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlePasolini.Brea;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		802B854E30838571001027ED /* Release configuration for PBXNativeTarget "Brea" */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80BEA0013100000100C0FFEE /* Version.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				AUTOMATION_APPLE_EVENTS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Brea/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Brea;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlePasolini.Brea;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
+		802B854F30838571001027ED /* Debug configuration for PBXProject "Brea" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		802B855030838571001027ED /* Release configuration for PBXProject "Brea" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		802B855230838571001027ED /* Debug configuration for PBXNativeTarget "BreaTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlePasolini.BreaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brea.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Brea";
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		802B855330838571001027ED /* Release configuration for PBXNativeTarget "BreaTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlePasolini.BreaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brea.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Brea";
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
+		802B855530838571001027ED /* Debug configuration for PBXNativeTarget "BreaUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlePasolini.BreaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = Brea;
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		802B855630838571001027ED /* Release configuration for PBXNativeTarget "BreaUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlePasolini.BreaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = Brea;
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		802B85253083856D001027ED /* Build configuration list for PBXProject "Brea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				802B854F30838571001027ED /* Debug configuration for PBXProject "Brea" */,
+				802B855030838571001027ED /* Release configuration for PBXProject "Brea" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		802B854C30838571001027ED /* Build configuration list for PBXNativeTarget "Brea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				802B854D30838571001027ED /* Debug configuration for PBXNativeTarget "Brea" */,
+				802B854E30838571001027ED /* Release configuration for PBXNativeTarget "Brea" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		802B855130838571001027ED /* Build configuration list for PBXNativeTarget "BreaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				802B855230838571001027ED /* Debug configuration for PBXNativeTarget "BreaTests" */,
+				802B855330838571001027ED /* Release configuration for PBXNativeTarget "BreaTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		802B855430838571001027ED /* Build configuration list for PBXNativeTarget "BreaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				802B855530838571001027ED /* Debug configuration for PBXNativeTarget "BreaUITests" */,
+				802B855630838571001027ED /* Release configuration for PBXNativeTarget "BreaUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		802551603087422C0000C054 /* XCLocalSwiftPackageReference "Packages/BreaKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/BreaKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		802551623087430D0000C054 /* BreaCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 802551603087422C0000C054 /* XCLocalSwiftPackageReference "Packages/BreaKit" */;
+			productName = BreaCore;
+		};
+		80255164308743110000C054 /* BreaDSP */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 802551603087422C0000C054 /* XCLocalSwiftPackageReference "Packages/BreaKit" */;
+			productName = BreaDSP;
+		};
+		80255166308785D10000C054 /* BreaAudioEngine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 802551603087422C0000C054 /* XCLocalSwiftPackageReference "Packages/BreaKit" */;
+			productName = BreaAudioEngine;
+		};
+		80255168308790E70000C054 /* BreaPresets */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 802551603087422C0000C054 /* XCLocalSwiftPackageReference "Packages/BreaKit" */;
+			productName = BreaPresets;
+		};
+		8025516A30887A280000C054 /* BreaUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 802551603087422C0000C054 /* XCLocalSwiftPackageReference "Packages/BreaKit" */;
+			productName = BreaUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 802B85223083856D001027ED /* Project object */;
+	validationLevel = 1;
+}

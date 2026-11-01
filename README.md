@@ -23,7 +23,6 @@ menu bar and never changes your output device or sample rate.
 
 ## Requirements
 
-|---|---|
 | **Run** | macOS 27 or later, Apple silicon or Intel |
 | **Build** | Xcode 27 or later |
 

@@ -14,87 +14,15 @@
 		8025516B30887A280000C054 /* BreaUI in Frameworks */ = {isa = PBXBuildFile; productRef = 8025516A30887A280000C054 /* BreaUI */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		802B853C30838571001027ED /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 802B85223083856D001027ED /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 802B85293083856E001027ED;
-			remoteInfo = Brea;
-		};
-		802B854630838571001027ED /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 802B85223083856D001027ED /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 802B85293083856E001027ED;
-			remoteInfo = Brea;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		802B852A3083856E001027ED /* Brea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brea.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		802B853B30838571001027ED /* BreaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		802B854530838571001027ED /* BreaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80BEA0013100000100C0FFEE /* Version.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Version.xcconfig; sourceTree = "<group>"; };
 		80BEA0023100000100C0FFEE /* Signing.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Signing.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		80255148308729200000C054 /* Exceptions for "test" folder in "Brea" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				BreaTests/BreaTests.swift,
-				BreaUITests/BreaUITests.swift,
-			);
-			target = 802B85293083856E001027ED /* Brea */;
-		};
-		80255149308729200000C054 /* Exceptions for "test" folder in "BreaTests" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				BreaTests/BreaTests.swift,
-			);
-			target = 802B853A30838571001027ED /* BreaTests */;
-		};
-		8025514A308729200000C054 /* Exceptions for "test" folder in "BreaUITests" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				BreaUITests/BreaUITests.swift,
-			);
-			target = 802B854430838571001027ED /* BreaUITests */;
-		};
-		80A011123095A7140015066D /* Exceptions for "Brea" folder in "BreaTests" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				res/Assets.xcassets,
-			);
-			target = 802B853A30838571001027ED /* BreaTests */;
-		};
-		80A011133095A7140015066D /* Exceptions for "Brea" folder in "BreaUITests" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				res/Assets.xcassets,
-			);
-			target = 802B854430838571001027ED /* BreaUITests */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		802551453087291F0000C054 /* test */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				80255148308729200000C054 /* Exceptions for "test" folder in "Brea" target */,
-				80255149308729200000C054 /* Exceptions for "test" folder in "BreaTests" target */,
-				8025514A308729200000C054 /* Exceptions for "test" folder in "BreaUITests" target */,
-			);
-			path = test;
-			sourceTree = "<group>";
-		};
 		802B852C3083856E001027ED /* Brea */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				80A011123095A7140015066D /* Exceptions for "Brea" folder in "BreaTests" target */,
-				80A011133095A7140015066D /* Exceptions for "Brea" folder in "BreaUITests" target */,
-			);
 			path = Brea;
 			sourceTree = "<group>";
 		};
@@ -109,16 +37,6 @@
 				802551633087430D0000C054 /* BreaCore in Frameworks */,
 				80255167308785D10000C054 /* BreaAudioEngine in Frameworks */,
 				80255169308790E70000C054 /* BreaPresets in Frameworks */,
-			);
-		};
-		802B853830838571001027ED /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			files = (
-			);
-		};
-		802B854230838571001027ED /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			files = (
 			);
 		};
 /* End PBXFrameworksBuildPhase section */
@@ -137,7 +55,6 @@
 				802B852C3083856E001027ED /* Brea */,
 				80BEA0033100000100C0FFEE /* Config */,
 				802B852B3083856E001027ED /* Products */,
-				802551453087291F0000C054 /* test */,
 				802551613087430D0000C054 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -146,8 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				802B852A3083856E001027ED /* Brea.app */,
-				802B853B30838571001027ED /* BreaTests.xctest */,
-				802B854530838571001027ED /* BreaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -175,7 +90,6 @@
 			buildRules = (
 			);
 			fileSystemSynchronizedGroups = (
-				802551453087291F0000C054 /* test */,
 				802B852C3083856E001027ED /* Brea */,
 			);
 			name = Brea;
@@ -190,42 +104,6 @@
 			productReference = 802B852A3083856E001027ED /* Brea.app */;
 			productType = "com.apple.product-type.application";
 		};
-		802B853A30838571001027ED /* BreaTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 802B855130838571001027ED /* Build configuration list for PBXNativeTarget "BreaTests" */;
-			buildPhases = (
-				802B853730838571001027ED /* Sources */,
-				802B853830838571001027ED /* Frameworks */,
-				802B853930838571001027ED /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				802B853D30838571001027ED /* PBXTargetDependency */,
-			);
-			name = BreaTests;
-			productName = BreaTests;
-			productReference = 802B853B30838571001027ED /* BreaTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		802B854430838571001027ED /* BreaUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 802B855430838571001027ED /* Build configuration list for PBXNativeTarget "BreaUITests" */;
-			buildPhases = (
-				802B854130838571001027ED /* Sources */,
-				802B854230838571001027ED /* Frameworks */,
-				802B854330838571001027ED /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				802B854730838571001027ED /* PBXTargetDependency */,
-			);
-			name = BreaUITests;
-			productName = BreaUITests;
-			productReference = 802B854530838571001027ED /* BreaUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -238,14 +116,6 @@
 				TargetAttributes = {
 					802B85293083856E001027ED = {
 						CreatedOnToolsVersion = 27.1;
-					};
-					802B853A30838571001027ED = {
-						CreatedOnToolsVersion = 27.1;
-						TestTargetID = 802B85293083856E001027ED;
-					};
-					802B854430838571001027ED = {
-						CreatedOnToolsVersion = 27.1;
-						TestTargetID = 802B85293083856E001027ED;
 					};
 				};
 			};
@@ -268,24 +138,12 @@
 			projectRoot = "";
 			targets = (
 				802B85293083856E001027ED /* Brea */,
-				802B853A30838571001027ED /* BreaTests */,
-				802B854430838571001027ED /* BreaUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		802B85283083856E001027ED /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			files = (
-			);
-		};
-		802B853930838571001027ED /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			files = (
-			);
-		};
-		802B854330838571001027ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
 			);
@@ -298,30 +156,7 @@
 			files = (
 			);
 		};
-		802B853730838571001027ED /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			files = (
-			);
-		};
-		802B854130838571001027ED /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			files = (
-			);
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		802B853D30838571001027ED /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 802B85293083856E001027ED /* Brea */;
-			targetProxy = 802B853C30838571001027ED /* PBXContainerItemProxy */;
-		};
-		802B854730838571001027ED /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 802B85293083856E001027ED /* Brea */;
-			targetProxy = 802B854630838571001027ED /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		802B854D30838571001027ED /* Debug configuration for PBXNativeTarget "Brea" */ = {
@@ -564,104 +399,6 @@
 			};
 			name = Release;
 		};
-		802B855230838571001027ED /* Debug configuration for PBXNativeTarget "BreaTests" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
-				MACOSX_DEPLOYMENT_TARGET = 27.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.AlePasolini.BreaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brea.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Brea";
-				XROS_DEPLOYMENT_TARGET = 27.0;
-			};
-			name = Debug;
-		};
-		802B855330838571001027ED /* Release configuration for PBXNativeTarget "BreaTests" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
-				MACOSX_DEPLOYMENT_TARGET = 27.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.AlePasolini.BreaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brea.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Brea";
-				XROS_DEPLOYMENT_TARGET = 27.0;
-			};
-			name = Release;
-		};
-		802B855530838571001027ED /* Debug configuration for PBXNativeTarget "BreaUITests" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
-				MACOSX_DEPLOYMENT_TARGET = 27.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.AlePasolini.BreaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = Brea;
-				XROS_DEPLOYMENT_TARGET = 27.0;
-			};
-			name = Debug;
-		};
-		802B855630838571001027ED /* Release configuration for PBXNativeTarget "BreaUITests" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
-				MACOSX_DEPLOYMENT_TARGET = 27.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.AlePasolini.BreaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = Brea;
-				XROS_DEPLOYMENT_TARGET = 27.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -678,22 +415,6 @@
 			buildConfigurations = (
 				802B854D30838571001027ED /* Debug configuration for PBXNativeTarget "Brea" */,
 				802B854E30838571001027ED /* Release configuration for PBXNativeTarget "Brea" */,
-			);
-			defaultConfigurationName = Release;
-		};
-		802B855130838571001027ED /* Build configuration list for PBXNativeTarget "BreaTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				802B855230838571001027ED /* Debug configuration for PBXNativeTarget "BreaTests" */,
-				802B855330838571001027ED /* Release configuration for PBXNativeTarget "BreaTests" */,
-			);
-			defaultConfigurationName = Release;
-		};
-		802B855430838571001027ED /* Build configuration list for PBXNativeTarget "BreaUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				802B855530838571001027ED /* Debug configuration for PBXNativeTarget "BreaUITests" */,
-				802B855630838571001027ED /* Release configuration for PBXNativeTarget "BreaUITests" */,
 			);
 			defaultConfigurationName = Release;
 		};

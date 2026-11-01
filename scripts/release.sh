@@ -46,6 +46,14 @@ setting() { sed -nE "s/^$1[[:space:]]*=[[:space:]]*(.*)$/\1/p" "$VERSION_FILE" |
 
 # MARK: Preflight
 
+# xcodebuild, and `swift test` for the package's asset catalog, need the full Xcode, not the
+# Command Line Tools. If xcode-select points at the Command Line Tools, use Xcode instead.
+if [[ -z "${DEVELOPER_DIR:-}" && "$(xcode-select -p 2>/dev/null)" != *.app/Contents/Developer ]]; then
+    export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer
+fi
+[[ -x "${DEVELOPER_DIR:-$(xcode-select -p)}/usr/bin/xcodebuild" ]] \
+    || fail "Xcode not found; install it or set DEVELOPER_DIR to its Contents/Developer folder."
+
 [[ -f Config/Signing.local.xcconfig ]] || fail "Missing Config/Signing.local.xcconfig (copy the .example and set your team)."
 if [[ -n "$(git status --porcelain)" ]]; then
     print -P "%F{yellow}warning:%f the working tree has uncommitted changes; the build will not match a commit."

@@ -99,8 +99,7 @@ Brea/
 │   │   ├── BreaPresets/       Equalizer APO import/export, presets, persistence
 │   │   └── BreaUI/            SwiftUI interface and the Reloj design system
 │   └── Tests/             Unit tests (Swift Testing)
-├── scripts/               Release tooling (archive, sign, notarize, publish)
-└── test/                  App and UI test targets
+└── scripts/               Release tooling (archive, sign, notarize, publish)
 ```
 
 Want to know how it works inside? The [**BreaKit architecture guide**](Packages/BreaKit/README.md)

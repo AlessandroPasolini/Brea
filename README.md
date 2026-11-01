@@ -37,7 +37,7 @@ To build: Xcode 27 or later
    audio: choose **Allow**. You can change this later in **System Settings ▸ Privacy &
    Security ▸ Screen & System Audio Recording**.
 
-> [!TIP]
+> [!IMPORTANT]
 > Brea only *processes* audio on your Mac. It does not record, store or send it anywhere.
 
 ## Using Brea

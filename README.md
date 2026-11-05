@@ -121,4 +121,4 @@ Brea is free software, released under the [GNU General Public License v3.0](LICE
 You may use, study, share and modify it; if you distribute a modified version, it must also be
 released under the GPL-3.0.
 
-Copyright © 2026 Alessandro Pasolini <3
+2026 Alessandro Pasolini <3
